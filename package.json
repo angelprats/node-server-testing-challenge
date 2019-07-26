@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon index.js",
-    "test": "jest --watch",
+    "test": "cross-env DB_ENV=testing jest --watch",
     "start": "node index.js"
   },
   "jest": {
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/LambdaSchool/node-server-testing.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Angel Prats",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LambdaSchool/node-server-testing/issues"
